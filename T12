@@ -1,0 +1,9 @@
+PImage imgspace;
+
+void setup(){
+  size(600,600);
+  imgspace = loadImage("space.jpg");
+}
+void draw(){
+  image(imgspace,0,0);
+}

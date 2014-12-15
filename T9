@@ -1,0 +1,20 @@
+int x, y;
+
+void setup() {
+  size(600, 600);
+  x=width/2;
+  y=height/2;
+  background(255);
+}
+
+void draw() {
+
+  if (dist(x, y, mouseX, mouseY)<=10) {
+    background(255, 0, 0);
+  } else {
+    background(255);
+  }
+
+  fill(0,0,255);
+  ellipse(x, y, 20, 20);
+}

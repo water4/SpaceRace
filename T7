@@ -1,0 +1,30 @@
+int x=300;
+int y=300;
+int lado=20;
+PImage imgship;
+int PImage=300;
+
+void setup(){
+  size(600,600);
+  imgship = loadImage("ship1.jpg");
+}
+
+void draw(){
+  noStroke();
+  fill(255,0,0);
+   image(imgship,x,y);
+}
+
+void keyPressed(){
+if(key == CODED){
+  if(keyCode == UP){
+    y=y-100;
+    } else if(keyCode == DOWN){
+  y=y+100;
+} else if(keyCode == RIGHT){
+  x=x+100;
+} else if(keyCode == LEFT){
+  x=x-100;
+}
+}
+}

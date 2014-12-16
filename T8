@@ -1,0 +1,5 @@
+int score=0;
+
+void draw () {
+text(score,10,10);
+}

@@ -1,3 +1,5 @@
+//This is the code of movement for the ships
+
 int x=300;
 int y=300;
 int lado=20;

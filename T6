@@ -1,10 +1,10 @@
-PImage imgship;
+PImage img;
 
 void setup(){
   size(600,600);
   
-  imgship = loadImage("ship.jpg");  
+  img = loadImage("ship.jpg");  
 }
 void draw(){
-  image(imgship,0,0);
+  image(img,0,0);
 }
